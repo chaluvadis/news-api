@@ -1,0 +1,162 @@
+[
+    {
+        "id": "5eb7321a-402a-4fa4-954e-2f36f068de58",
+        "source": "life",
+        "headLine": "trade",
+        "summary": "tofu",
+        "publishedDate": "1986-01-03T05:15:57",
+        "target": "Mobile"
+    },
+    {
+        "id": "287a20a0-1770-4d93-8860-561bf8c3dd29",
+        "source": "pinterest",
+        "headLine": "truffaut",
+        "summary": "narwhal",
+        "publishedDate": "1984-11-06T01:34:18",
+        "target": "Mobile"
+    },
+    {
+        "id": "0743d98e-0191-4de1-ac4e-9e6928f213b9",
+        "source": "chillwave",
+        "headLine": "high",
+        "summary": "Swag",
+        "publishedDate": "1951-11-23T08:20:42",
+        "target": "Mobile"
+    },
+    {
+        "id": "3b147217-2584-4094-9ff6-ff626895c875",
+        "source": "readymade",
+        "headLine": "next",
+        "summary": "terry",
+        "publishedDate": "1932-03-28T20:58:31",
+        "target": "Mobile"
+    },
+    {
+        "id": "0883aeea-377b-486f-b788-eca56bf763fb",
+        "source": "locavore",
+        "headLine": "cray",
+        "summary": "organic",
+        "publishedDate": "2008-01-03T10:23:53",
+        "target": "Mobile"
+    },
+    {
+        "id": "19f41558-b28b-4d3d-b4d5-c5110cdd5bf0",
+        "source": "batch",
+        "headLine": "government",
+        "summary": "brooklyn",
+        "publishedDate": "1979-04-15T19:15:50",
+        "target": "Mobile"
+    },
+    {
+        "id": "ce2a132f-746f-4d5a-af0f-364db5f2e179",
+        "source": "lo-fi",
+        "headLine": "heard",
+        "summary": "VHS",
+        "publishedDate": "1907-11-02T14:55:04",
+        "target": "Mobile"
+    },
+    {
+        "id": "992413e6-c9d7-4848-9c04-480fb173ef3a",
+        "source": "marfa",
+        "headLine": "cosby",
+        "summary": "truck",
+        "publishedDate": "1971-03-21T10:41:37",
+        "target": "Mobile"
+    },
+    {
+        "id": "a4704c5d-cc95-489f-a203-195576b2a025",
+        "source": "bicycle",
+        "headLine": "Brooklyn",
+        "summary": "man",
+        "publishedDate": "1912-05-07T17:21:37",
+        "target": "Mobile"
+    },
+    {
+        "id": "a4c46274-55a5-419f-9724-62431003a1d3",
+        "source": "pop-up",
+        "headLine": "readymade",
+        "summary": "stumptown",
+        "publishedDate": "2019-01-08T19:37:40",
+        "target": "Mobile"
+    },
+    {
+        "id": "3a55d615-81b4-4f43-bc3a-e5021000fbca",
+        "source": "fanny",
+        "headLine": "photo",
+        "summary": "heard",
+        "publishedDate": "1961-12-15T01:20:51",
+        "target": "Mobile"
+    },
+    {
+        "id": "a2285e86-f6fe-4fba-9c21-a049d10b06c1",
+        "source": "year",
+        "headLine": "out",
+        "summary": "bushwick",
+        "publishedDate": "1974-11-16T18:28:37",
+        "target": "Mobile"
+    },
+    {
+        "id": "1012b725-3882-4c76-8196-0c1bc236604d",
+        "source": "bushwick",
+        "headLine": "fanny",
+        "summary": "Four",
+        "publishedDate": "1928-03-09T01:53:26",
+        "target": "Mobile"
+    },
+    {
+        "id": "757d0965-cc2a-442b-a7de-b59271f5dc6a",
+        "source": "marfa",
+        "headLine": "them",
+        "summary": "sweater",
+        "publishedDate": "1976-07-08T13:11:54",
+        "target": "Mobile"
+    },
+    {
+        "id": "44d1ca6d-fb61-4ca6-819d-b9dfadb1f5c9",
+        "source": "kale",
+        "headLine": "hoodie",
+        "summary": "vice",
+        "publishedDate": "2011-03-15T18:52:12",
+        "target": "Mobile"
+    },
+    {
+        "id": "076636b2-cdee-4990-8269-cf80899cb619",
+        "source": "pickled",
+        "headLine": "stumptown",
+        "summary": "pour-over",
+        "publishedDate": "2003-09-14T11:33:32",
+        "target": "Mobile"
+    },
+    {
+        "id": "ca4f9201-34ef-4295-bd56-0f96c4d1d19e",
+        "source": "direct",
+        "headLine": "you",
+        "summary": "narwhal",
+        "publishedDate": "1964-03-22T01:45:44",
+        "target": "Mobile"
+    },
+    {
+        "id": "00d6438c-7007-424b-811b-594254eab90f",
+        "source": "of",
+        "headLine": "high",
+        "summary": "fanny",
+        "publishedDate": "1917-12-13T16:10:56",
+        "target": "Mobile"
+    },
+    {
+        "id": "0aa3eec6-efeb-47fa-8f7f-c48abb1df038",
+        "source": "stumptown",
+        "headLine": "man",
+        "summary": "art",
+        "publishedDate": "1907-01-08T03:17:07",
+        "target": "Mobile"
+    },
+    {
+        "id": "3763b799-253a-4276-ae35-a733ee406e48",
+        "source": "womn",
+        "headLine": "fap",
+        "summary": "vice",
+        "publishedDate": "1988-01-23T13:56:43",
+        "target": "Mobile"
+    }
+]
