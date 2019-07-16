@@ -9,9 +9,6 @@ namespace DeviceWebApi.Services
             return _dataService.Collection(20);
         }
 
-        public MobileNews GetNews(Guid guid)
-        {
-            throw new NotImplementedException();
-        }
+        public MobileNews GetNews(Guid guid) => throw new NotImplementedException();
     }
 }

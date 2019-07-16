@@ -13,7 +13,6 @@ namespace DeviceWebApi.Controllers
     {
         private readonly IDevice _device;
         private readonly dynamic _dataService;
-
         private readonly dynamic _service;
         private (dynamic, dynamic) GetService(IDeviceResolver deviceResolver)
         {
@@ -45,9 +44,9 @@ namespace DeviceWebApi.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<IEnumerable<dynamic>> Get(Guid id)
         {
-            return "this.device.Type.ToString();";
+            return this._service.GetNews(id);
         }
     }
 }
