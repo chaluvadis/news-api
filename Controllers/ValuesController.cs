@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Wangkanai.Detection;
-using DeviceWebApi.Services;
-using DeviceWebApi.Models;
+using DeviceWebApi.Utilities;
 
 namespace DeviceWebApi.Controllers
 {
@@ -14,39 +12,10 @@ namespace DeviceWebApi.Controllers
         private readonly IDevice _device;
         private readonly dynamic _dataService;
         private readonly dynamic _service;
-        private (dynamic, dynamic) GetService(IDeviceResolver deviceResolver)
-        {
-            if (deviceResolver.Device.Type == DeviceType.Mobile)
-            {
-                return (new MobileService<MobileNews>(), new DataService<MobileNews>());
-            }
-            else if (deviceResolver.Device.Type == DeviceType.Tablet)
-            {
-                return (new TabletService<TabletNews>(), new DataService<TabletNews>());
-            }
-            else
-            {
-                return (new DesktopService<DesktopNews>(), new DataService<DesktopNews>());
-            }
-        }
+        public ValuesController(IDeviceResolver deviceResolver) => (this._service, this._dataService) = Utility.GetService(deviceResolver);
 
-        public ValuesController(IDeviceResolver deviceResolver)
-        {
-            // tuple order resolves the dependeny
-            (this._service, this._dataService) = GetService(deviceResolver);
-        }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<dynamic>> Get()
-        {
-            return this._service.GetAllNews(this._dataService);
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<IEnumerable<dynamic>> Get(Guid id)
-        {
-            return this._service.GetNews(id);
-        }
+        public ActionResult<IEnumerable<dynamic>> Get() => this._service.GetAllNews(this._dataService);
     }
 }
